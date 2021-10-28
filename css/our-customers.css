@@ -1,0 +1,226 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+/* CUSTOMERS */
+.our-customers_inner {
+  margin-top: 100px;
+}
+
+.library-subtitle {
+  border-bottom: 1px solid #00C805;
+  padding: 20px 24px;
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+}
+
+.customers-inner_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.customers-inner_text {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  max-width: 570px;
+  margin: 25px auto 0px auto;
+}
+
+.customers-items {
+  margin-top: 110px;
+}
+
+.customers-list_item:not(:last-child) {
+  margin-bottom: 150px;
+}
+
+.customers-item_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customers-item_specs {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.customers-item_rewie {
+  border: 1px solid #00c805;
+  border-radius: 24px;
+  padding: 4px 10px;
+  color: #00c805;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  line-height: 13px;
+  font-size: 10px;
+}
+
+.curstomers-item_text {
+  margin-top: 24px;
+  margin-bottom: 44px;
+  max-width: 800px;
+  font-family: "Nib Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.25px;
+}
+
+.customers-item_person {
+  border-top: 1px solid #00c805;
+  border-bottom: 1px solid #00c805;
+  padding: 4px 0px 24px 0px;
+}
+
+.customers-person_name {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+}
+
+.customers-person_img {
+  margin: 24px 0px;
+}
+
+.customers-person_img img {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+}
+
+.customers-person_text {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  max-width: 595px;
+}
+
+/* TESMONIALS */
+.customer-tesmonials {
+  margin-top: 110px;
+  border-top: 1px solid #6a7278;
+  padding: 112px 0px;
+}
+
+.customer-tesmonials_text {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #6a7278;
+}
+
+@media screen and (max-width: 992px) {
+  .customers-inner_title {
+    font-size: 44px;
+    line-height: 40px;
+  }
+  .customers-inner_text {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .customers-person_img img {
+    width: 166px;
+    height: 166px;
+  }
+  .curstomers-item_text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .customers-person_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .customers-inner_title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .customers-inner_text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .customers-person_img img {
+    width: 166px;
+    height: 166px;
+  }
+  .curstomers-item_text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .customers-person_text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .customers-inner_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .customers-inner_text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .customers-person_img img {
+    width: 146px;
+    height: 146px;
+  }
+  .curstomers-item_text {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .customers-person_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

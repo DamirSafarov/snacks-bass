@@ -1,0 +1,689 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+}
+
+html.lock {
+  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+/* ABOUT-US */
+.library-subtitle {
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 20px 24px;
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  z-index: -1;
+}
+
+.about-video_inner {
+  position: relative;
+  z-index: -2;
+}
+
+.library-subtitle {
+  width: 100%;
+  position: absolute;
+}
+
+.about-video_item {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-video_text {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 610px;
+}
+
+.about-video_text h1 {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  color: white;
+  text-align: center;
+}
+
+.markets-inner_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  text-align: center;
+  max-width: 595px;
+  margin: 60px auto 60px auto;
+}
+
+.markets-inner_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.markets-inner_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.markets-inner_item {
+  border-radius: 24px;
+  width: 327px;
+  height: 393px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.markets-item_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.markets-item_text {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-left: 24px;
+}
+
+.markets-item_imgs {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.markets-item_imgs img {
+  width: 100%;
+  height: 100%;
+  max-height: 270px;
+}
+
+.market-item_plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+/* ПОПАПЫ */
+.market-popup {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  overflow: auto;
+}
+
+.market-popup_container {
+  position: absolute;
+  overflow: auto;
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.market-popup_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  margin-bottom: 6px;
+}
+
+.market-popup_subtitle {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+}
+
+.market-popup_text {
+  font-family: "Capsule Sans Text", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.market-popup_text:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.market-popup_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+}
+
+.market-popup_img img {
+  max-height: 510px;
+}
+
+.popup-close_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  right: 20px;
+  top: 20px;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-close_btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ROBIN MARKETS */
+.about-system_inner {
+  margin-bottom: 115px;
+}
+
+.system-inner_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  max-width: 595px;
+  margin: 110px auto 110px auto;
+}
+
+.system-inner_items {
+  margin: 0px 120px;
+}
+
+.system-inner_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.system-inner_item:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.system-inner_item:nth-child(even) .system-item_info {
+  margin-right: 75px;
+}
+
+.system-inner_item:nth-child(odd) .system-item_info {
+  margin-left: 75px;
+}
+
+.system-item_subtitle {
+  border: 1px solid #00c805;
+  border-radius: 24px;
+  padding: 4px 10px;
+  color: #00c805;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 13px;
+  font-size: 10px;
+}
+
+.system-item_title {
+  margin-top: 14px;
+  margin-bottom: 44px;
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  max-width: 390px;
+}
+
+.system-item_text {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  max-width: 390px;
+}
+
+.system-text_link {
+  text-decoration: underline;
+}
+
+/* FOUNDERS */
+.our-founders {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 120px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #e1ebdc;
+}
+
+.our-founders_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-founders-img {
+  width: 252px;
+  height: 252px;
+}
+
+.our-founders-img img {
+  border-radius: 50%;
+}
+
+.our-founders_info {
+  max-width: 495px;
+  margin-left: 65px;
+}
+
+.our-founders_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  margin-bottom: 14px;
+}
+
+.our-founders_text {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+}
+
+/* JOIN US */
+.join-us {
+  background: #00c805;
+  padding: 64px 0px;
+  height: 294px;
+}
+
+.join-us_title {
+  text-align: center;
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+}
+
+.join-us_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  background: black;
+  color: white;
+  width: 170px;
+  height: 48px;
+  border-radius: 24px;
+  margin: 34px auto 0px auto;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.join-us_btn:hover {
+  color: black;
+  background: white;
+}
+
+@media screen and (max-width: 992px) {
+  .about-video_text {
+    width: 100%;
+  }
+  .system-inner_items {
+    margin: 0px 40px;
+  }
+  .system-item_title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .library-subtitle {
+    font-size: 30px;
+  }
+  .about-video_text {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .about-video_text h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+  }
+  .markets-inner_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+  }
+  .markets-inner_list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .markets-inner_item {
+    width: 390px;
+  }
+  .system-inner_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .system-inner_items {
+    margin: 0;
+  }
+  .system-inner_item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .system-inner_item:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .system-inner_item:nth-child(odd) .system-item_info {
+    margin-left: 0px;
+  }
+  .system-inner_item:nth-child(even) .system-item_info {
+    margin-right: 0px;
+  }
+  .system-item_info {
+    margin-top: 34px;
+  }
+  .system-item_title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .system-item_text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .system-inner_item:not(:last-child) {
+    margin-bottom: 105px;
+  }
+  /* FOUNDERS */
+  .our-founders_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-founders_info {
+    margin: 50px auto 0 auto;
+  }
+  .our-founders-img {
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+  .our-founders_title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .our-founders_text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .join-us_title {
+    font-size: 22px;
+  }
+  /* ПОПАПЫ */
+  .market-popup_title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .market-popup_subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .market-popup_img {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto 30px auto;
+  }
+  .market-popup_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .market-popup_text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .library-subtitle {
+    font-size: 28px;
+  }
+  .about-video_text {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .about-video_text h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+  }
+  .markets-inner_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+  }
+  .markets-inner_item {
+    width: 327px;
+  }
+  .markets-inner_list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .system-inner_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .system-inner_items {
+    margin: 0;
+  }
+  .system-inner_item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .system-inner_item:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .system-inner_item:nth-child(odd) .system-item_info {
+    margin-left: 0px;
+  }
+  .system-inner_item:nth-child(even) .system-item_info {
+    margin-right: 0px;
+  }
+  .system-item_info {
+    margin-top: 34px;
+  }
+  .system-item_title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .system-item_text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .system-inner_item:not(:last-child) {
+    margin-bottom: 105px;
+  }
+  /* FOUNDERS */
+  .our-founders_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-founders_info {
+    margin-left: 0px;
+  }
+  .our-founders_title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .our-founders_text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .join-us_title {
+    font-size: 22px;
+  }
+  /* ПОПАПЫ */
+  .market-popup_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .market-popup_subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .market-popup_img {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .market-popup_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .market-popup_text {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+  }
+}

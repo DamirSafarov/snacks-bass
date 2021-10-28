@@ -1,0 +1,353 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.library-subtitle {
+  border-bottom: 1px solid #00C805;
+  padding: 20px 24px;
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+}
+
+/* Our commitments */
+.commitments-content_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  max-width: 600px;
+  margin: 100px auto 25px auto;
+  text-align: center;
+}
+
+.commitments-content_text {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto 100px auto;
+}
+
+.commitments-content_items {
+  margin-bottom: 100px;
+}
+
+.commitments-list_item {
+  width: 100px;
+}
+
+.commitments-list {
+  margin: 0px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commitments-item_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.commitments-item_img img {
+  width: 54px;
+  height: 54px;
+}
+
+.commitments-item_text {
+  margin-top: 32px;
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  text-align: center;
+}
+
+/* БЛОКИ */
+.commitments-blocks {
+  background: #e1ebdc;
+}
+
+.commitments-blocks_content {
+  padding: 120px 0px 100px 0px;
+}
+
+.commitments-list_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.commitments-list_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 0px 64px 0px;
+  border-top: 1px solid #009b04;
+}
+
+.commitments-block_img {
+  margin-right: 110px;
+  height: 110px;
+}
+
+.commitments-block_info {
+  max-width: 580px;
+}
+
+.commitments-info_title {
+  font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  color: #009b04;
+  margin-bottom: 45px;
+}
+
+.commitments-info_subtext {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: black;
+}
+
+.commitments-info_text {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-top: 16px;
+}
+
+.commitments-info_text a {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.commitments-info_text a:hover {
+  color: #3c9446;
+  -webkit-text-decoration: underline #3c9446;
+          text-decoration: underline #3c9446;
+}
+
+.commitments-list_options {
+  margin-top: 16px;
+  padding-left: 40px;
+  list-style: outside;
+}
+
+.commitments-list_option {
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.commitments-list_option:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.commiments-info_links {
+  margin-top: 50px;
+}
+
+.commitments-info_link {
+  margin-top: 14px;
+  font-family: "Capsule Sans Text",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #3c9446;
+}
+
+.commitments-info_link a {
+  color: #3c9446;
+  -webkit-text-decoration: underline #3c9446;
+          text-decoration: underline #3c9446;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.commitments-info_link a:hover {
+  color: black;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+@media screen and (max-width: 992px) {
+  .commitments-list {
+    margin: 0;
+  }
+  .commitments-list_block {
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .commitments-content_title {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: initial;
+  }
+  .commitments-content_text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: initial;
+  }
+  .commitments-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 64px 20px;
+    margin: 0;
+  }
+  .commitments-list_item {
+    margin: 0 auto;
+  }
+  .commitments-item_link {
+    text-decoration: underline;
+  }
+  .commitments-list_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .commitments-block_img {
+    margin-right: 0px;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+  .commitments-info_title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+  }
+  .commitments-info_subtext {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .commitments-info_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .commitments-info_link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .commitments-content_title {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: initial;
+  }
+  .commitments-content_text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: initial;
+  }
+  .commitments-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 64px 20px;
+    margin: 0;
+  }
+  .commitments-list_item {
+    margin: 0 auto;
+  }
+  .commitments-item_link {
+    text-decoration: underline;
+  }
+  .commitments-list_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .commitments-block_img {
+    margin-right: 0px;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+  .commitments-info_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+  }
+  .commitments-info_subtext {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .commitments-info_text {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

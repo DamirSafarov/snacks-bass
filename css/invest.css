@@ -1,0 +1,788 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1040px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+/* ИНВЕСТИНГ БАСИКС */
+.investing-basics {
+  background-color: #e1ebdc;
+  border-bottom: 1px solid;
+  margin-bottom: 110px;
+}
+
+.investing-basics_img {
+  position: relative;
+  width: 550px;
+}
+
+.investing-basics_img img {
+  width: 100%;
+  position: absolute;
+  top: -270px;
+  left: 0;
+}
+
+.investing-basics_title {
+  padding: 0px 25px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  padding: 20px 24px;
+  border-bottom: 1px solid black;
+}
+
+.investing-basics_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0px;
+}
+
+.basics-content_title {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  max-width: 380px;
+}
+
+.basics-content_text {
+  margin-top: 25px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+  max-width: 330px;
+}
+
+/* ИНВЕСТИНГ */
+.investing-content_title {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: center;
+}
+
+.investing-text_box {
+  margin-top: 20px;
+}
+
+.investing-content_text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.24px;
+}
+
+.investing-content_list {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.investing-content_item {
+  cursor: pointer;
+  padding: 28px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  min-height: 540px;
+  max-height: 540px;
+  list-style: none;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.investing-content_item:nth-child(2) {
+  margin: 0px 18px;
+}
+
+.investing-content_item:hover .investing-item_title {
+  color: white;
+}
+
+.investing-content_item:hover .investing-item_text {
+  color: white;
+}
+
+.investing-item_title p {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+}
+
+.investing-item_text {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.1px;
+  max-width: 227px;
+}
+
+/* MORE LEARN */
+.more-learn_title {
+  margin-top: 50px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  text-align: center;
+  text-decoration: unset;
+}
+
+.more-learn_items {
+  margin: 65px 0px;
+}
+
+.more-learn_item {
+  list-style: none;
+  border-top: 1px solid #e3e9ed;
+  padding: 16px 0;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.more-learn_item:last-child {
+  border-bottom: 1px solid #e3e9ed;
+}
+
+.more-learn_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  text-decoration: unset;
+  color: black;
+}
+
+.more-learn_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  padding: 0 36px;
+  height: 48px;
+  min-width: 144px;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.more-learn_btn:hover {
+  color: black;
+  background: transparent;
+  border: 1px solid black;
+}
+
+/* OPTIONS TRADING */
+.options-trading_content {
+  border-top: 1px solid #e3e9ed;
+}
+
+.trading-content_title {
+  margin-top: 110px;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: center;
+}
+
+.trading-content_text {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+  max-width: 600px;
+  margin: 25px auto 0px auto;
+}
+
+/* АЙТЕМЫ */
+.trading-content_items {
+  margin-top: 110px;
+}
+
+.trading-content_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.trading-content_item {
+  list-style: none;
+  padding: 28px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  min-height: 540px;
+  max-height: 540px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.trading-content_item:nth-child(2) {
+  margin: 0px 18px;
+}
+
+.trading-content_item:hover .trading-item_title {
+  color: white;
+}
+
+.trading-content_item:hover .trading-item_text {
+  color: white;
+}
+
+.trading-item_title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+  max-width: 240px;
+}
+
+.trading-item_text {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 240px;
+  letter-spacing: -0.1px;
+}
+
+/* THE LIBRARY */
+.the-library_content {
+  border-top: 1px solid #e3e9ed;
+}
+
+.the-library_title {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.75px;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 25px;
+}
+
+.the-library_text {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+}
+
+.the-library_items {
+  margin-top: 90px;
+}
+
+.the-library_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.the-library_item {
+  height: 220px;
+  border: 1px solid #b4bdc2;
+  border-radius: 12px;
+  padding: 24px;
+  background-repeat: no-repeat;
+  width: 492px;
+}
+
+.library-link_text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.24px;
+}
+
+.the-library_btn {
+  height: 48px;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  width: 170px;
+  margin: 65px auto 65px auto;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.the-library_btn:hover {
+  color: black;
+  border: 1px solid;
+  background: transparent;
+}
+
+/* КОНТЕНТ ТЕКСТ */
+.content-text {
+  border-top: 1px solid;
+}
+
+.content-box {
+  padding: 110px 0px;
+}
+
+.content-box_text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-top: 15px;
+}
+
+.content-box_text a {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.content-box_text a:hover {
+  color: green;
+  -webkit-text-decoration: underline green;
+          text-decoration: underline green;
+}
+
+.investing-basics_title h1 {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1020px) {
+  .basics-content_title {
+    max-width: 520px;
+  }
+  .investing-basics_title {
+    padding: 15px 14px 15px 14px;
+  }
+  .investing-basics_title h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .investing-basics_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px 0px 100px 0px;
+  }
+  .investing-basics_img {
+    margin: 100px 15px 0px 15px;
+    min-width: 300px;
+    max-width: 550px;
+    width: initial;
+  }
+  .investing-basics_img img {
+    position: initial;
+  }
+  /* ИНВЕСТИНГ 101 */
+  .investing-content_title {
+    font-size: 52px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .investing-content_text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .investing-content_list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .investing-content_item:nth-child(1) {
+    margin: 0px auto 20px auto;
+  }
+  .investing-content_item {
+    margin: 0 auto;
+  }
+  .investing-item_title {
+    max-width: 240px;
+  }
+  .investing-item_text {
+    max-width: 240px;
+  }
+  .more-learn_list {
+    margin: 0px 20px;
+  }
+  /* OPTIONS TRADING */
+  .trading-content_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .trading-content_text {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 15px;
+  }
+  .trading-content_list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .trading-content_item {
+    margin: 0px auto 20px auto;
+  }
+  .the-library_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .the-library_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .the-library_list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .the-library_item {
+    background-position: center;
+    width: 490px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  /* КОНТЕНТ БОКС */
+  .content-box {
+    margin: 0px 15px;
+  }
+  .content-box_text {
+    line-height: 24px;
+    color: #6a7278;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .investing-basics_title {
+    padding: 15px 14px 15px 14px;
+  }
+  .investing-basics_title h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .investing-basics_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px 0px 100px 0px;
+  }
+  .basics-content_title {
+    line-height: 40px;
+    font-size: 32px;
+    letter-spacing: -0.32px;
+    max-width: initial;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .basics-content_text {
+    margin: 25px auto 0px auto;
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: -0.21px;
+  }
+  .investing-basics_img {
+    margin: 100px 15px 0px 15px;
+    min-width: 300px;
+    max-width: 550px;
+    width: initial;
+  }
+  .investing-basics_img img {
+    position: initial;
+  }
+  /* ИНВЕСТИНГ 101 */
+  .investing-content_title {
+    font-size: 52px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .investing-content_text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .investing-content_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .investing-content_item:nth-child(2) {
+    margin: 20px 0px;
+  }
+  .investing-item_title {
+    max-width: 240px;
+  }
+  .investing-item_text {
+    max-width: 240px;
+  }
+  .more-learn_list {
+    margin: 0px 10px;
+  }
+  /* OPTIONS TRADING */
+  .trading-content_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .trading-content_text {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 15px;
+  }
+  .trading-content_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .trading-content_item:nth-child(2) {
+    margin: 20px 0px;
+  }
+  .the-library_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .the-library_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .the-library_list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .the-library_item {
+    background-position: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  /* КОНТЕНТ БОКС */
+  .content-box {
+    margin: 0px 15px;
+  }
+  .content-box_text {
+    line-height: 24px;
+    color: #6a7278;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .investing-basics_title {
+    padding: 15px 14px 15px 14px;
+  }
+  .investing-basics_title h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .investing-basics_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px 0px 100px 0px;
+  }
+  .basics-content_title {
+    line-height: 40px;
+    font-size: 32px;
+    letter-spacing: -0.32px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .basics-content_text {
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: -0.21px;
+  }
+  .investing-basics_img {
+    margin: 100px 15px 0px 15px;
+    min-width: 300px;
+    width: initial;
+  }
+  .investing-basics_img img {
+    position: initial;
+  }
+  /* ИНВЕСТИНГ 101 */
+  .investing-content_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .investing-content_text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .investing-content_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .investing-content_item:nth-child(2) {
+    margin: 20px 0px;
+  }
+  .investing-item_title {
+    max-width: 240px;
+  }
+  .investing-item_text {
+    max-width: 240px;
+  }
+  /* OPTIONS TRADING */
+  .trading-content_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .trading-content_text {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 15px;
+  }
+  .trading-content_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .trading-content_item:nth-child(2) {
+    margin: 20px 0px;
+  }
+  .the-library_title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .the-library_text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .the-library_list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .the-library_item {
+    background-position: center;
+    width: 330px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  /* КОНТЕНТ БОКС */
+  .content-box {
+    margin: 0px 15px;
+  }
+  .content-box_text {
+    line-height: 24px;
+    color: #6a7278;
+    font-size: 16px;
+  }
+}
