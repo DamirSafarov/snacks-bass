@@ -19,6 +19,16 @@ body {
 }
 
 /* SNACKS  */
+.fancybox-toolbar{
+ right: 25px;
+ top: 25px;
+}
+.fancybox-button{
+  background: black;
+}
+
+
+
 .financial-news_inner {
   display: -webkit-box;
   display: -ms-flexbox;
