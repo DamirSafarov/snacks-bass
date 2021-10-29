@@ -430,7 +430,7 @@
     .header nav {
       display: none;
       width: 100%;
-      height: calc(100vh - 64px);
+      height: 100vh;
       padding: 30px;
       position: absolute;
       top: 64px;
