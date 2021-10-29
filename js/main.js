@@ -42,6 +42,15 @@ $(".markets-inner_item").on("click", function () {
   $(".popup-close_btn").on("click", function () {
     $("html").removeClass("lock");
   });
+    
+    $(".header__burger").on("click", function () {
+    $("body").addClass("body-lock");
+  });
+
+  $(".header__burger").on("click", function () {
+    $("body").removeClass("body-lock");
+  });
+
 
 
 });
