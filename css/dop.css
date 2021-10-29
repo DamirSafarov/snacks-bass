@@ -75,7 +75,10 @@
   }
   
   
-  
+.html-hidden{
+overflow:hidden;
+}  
+
   .header {
     width: 100%;
     position: fixed;
